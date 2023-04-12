@@ -132,9 +132,7 @@ ul.lista-items{
 
 
 h2#actividades {
-
    display: inline-block;
-   margin-bottom: 2rem;
    text-align: justify;     
    font-weight: bold;
 }
@@ -415,5 +413,12 @@ h4, .direccion, .grupo{
  .mapa{
     width: 100%;
     padding-bottom: 2rem;
+
+ }
+
+ .NuestrasActividades{
+   background-color: rgb(237, 237, 237);
+
+
 
  }
