@@ -83,12 +83,6 @@ em{
     background: rgb(214, 214,214);
 }
 
-ul.lista-items{
-
-   list-style: square;
-}
-
-
 
 .titulo-centralizado{
     text-align: center;
@@ -109,15 +103,61 @@ ul.lista-items{
     font-style: italic;
   }
 
- .video{
-  width: 50%;
+  
+ul.lista-items{
+   list-style: none;
+   padding: 0;
  }
 
+ li.items::before { /* Añadimos contenido antes de cada elemento de la lista */
+   content:"\25ba";  ; /* Insertamos el marcador */
+   padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+   color: #ffed29; /* Coloreamos la viñeta */
+   }
+
+ iframe{
+   border-radius: 5px;
+
+}
+
+
+
  /*** Nuestras Actividades ***/
+
 
  .titulo-actividades{
    padding: 30px;
    margin: 0;
+}
+
+
+h2#actividades {
+
+   display: inline-block;
+   margin-bottom: 2rem;
+   text-align: justify;     
+   font-weight: bold;
+}
+.asociate{
+   display: inline-block;
+    width: 40%;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background:  rgb(255, 251, 40);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+    margin-bottom: 40px;
+    
+ }
+
+
+img#activCuatro,#activTres,#activDos,#activUno {
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
 }
 
 
@@ -161,6 +201,19 @@ ul.lista-items{
    background-color: grey;
    color: white;
    transform: translate(0%, -13%);
+}
+
+#actividades{
+   text-transform: uppercase;
+ }
+
+ div#contentcuatro, div#contenttres, div#contentdos, div#contentuno {
+   border: dashed;
+   border-color: #ffed29;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding: 20px;
+   margin: 15px;
 }
 
 
@@ -222,11 +275,12 @@ span{
    vertical-align: text-bottom;
    padding: 8px 20px;
    color: white;
-   background-color: grey;
+   background-color: #ffed29;
    top: 77%;
    left: 50%;
    transform: translate(-50%, -50%);
-   border: none;
+   border-color: orange;
+   border-radius: 5px;
    cursor: pointer;
 }
 
@@ -251,6 +305,20 @@ span{
 
 
 }
+section.tablaunido{
+   margin-top: 0.2px;
+   
+}
+span{
+   color: #ffed29;
+
+ }
+ #membresia{
+   text-transform: uppercase;
+
+ }
+
+
 
  /***Contacto ***/
 
@@ -348,33 +416,4 @@ h4, .direccion, .grupo{
     width: 100%;
     padding-bottom: 2rem;
 
- }
-
-
-
-section.tablaunido{
-   margin-top: 0.2px;
-   
-}
-span{
-   color: #ffed29;
-
- }
- #membresia{
-   text-transform: uppercase;
-
- }
-
- #actividades{
-   text-transform: uppercase;
- }
-
- .NuestrasActividades{
- 
-
- }
- h2#actividades{
-   display: inline-block;
-   margin-bottom: 2rem;
-   
  }

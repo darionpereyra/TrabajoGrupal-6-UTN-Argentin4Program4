@@ -38,7 +38,7 @@
                 <ul class="menu__lista" >
                     <li class="menu__item"><a class="menu__link--activo" href="#contenedorq">Home</a></li>
                     <li class="menu__item"><a class="menu__link" href="#actividades">Actividades</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Membresía</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#membresia">Membresía</a></li>
                     <li class="menu__item"><a class="menu__link" href="#formulario">Contacto</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Login/Registro</a></li>
                 </ul>
@@ -78,27 +78,32 @@
             <!-- Inicio Nuestras actividades-->
             <div class="contenedoractiv">
                 <div class="NuestrasActividades" >
-                    <div class="contenedor-actividades">
-                        <div> <h2 class="titulo-actividades" id="actividades">Todas las <br> <span>actividades </span> <br> que Buscas</h2></div>
-
-                        <img src="images/sala musculacion.jpg" alt="Imagen Musculacion" width="235px" height="200px">
-                        <div class="actividades"><strong>Sala Musculacion</strong></div>
-                        <div class="descripcion-actividades">Espacio equipado con maquinaria e implementos, destinados al entrenamiento </div>
+                    <div class="contenedor-actividades" id="">
+                        <div> <h2 class="titulo-actividades" id="actividades">Todas las <br> <span>actividades </span> <br> que Buscás</h2></div>
+                        <div> <a href="#membresia"><input type="submit" value="Asociate" class="asociate"></div></a>
+                        <div id="contentuno">
+                            <img src="images/sala musculacion.jpg" alt="Imagen Musculacion" width="235px" height="200px" id="activUno">
+                            <div class="actividades"><strong>Sala Musculación</strong></div>
+                            <div class="descripcion-actividades">Espacio equipado con maquinaria e implementos, destinados al entrenamiento </div>
+                        </div>
+                        
                     </div>
-                    <div class="contenedor-actividades">
-                        <img src="images/pilatesreformer.jpg" alt="Imagen Pilates" width="235px" height="200px">
+                    <div class="contenedor-actividades" id="contentdos">
+                        <img src="images/pilatesreformer.jpg" alt="Imagen Pilates" width="235px" height="200px" id="activDos">
                         <div class="actividades"><strong>Pilates Performer</strong></div>
-                        <div class="descripcion-actividades">Espacio con maquinas que se enfocan en fortalecer gradualmente los músculos  </div>
+                        <div class="descripcion-actividades">Espacio con máquinas que se enfocan en fortalecer gradualmente los músculos  </div>
                     </div>
-                    <div class="contenedor-actividades">
-                        <img src="images/spinning.jpg" alt="Imagen Spinning" width="235px" height="200px">
+                    <div class="contenedor-actividades" id="contenttres">
+                        <img src="images/spinning.jpg" alt="Imagen Spinning" width="235px" height="200px" id="activTres">
                         <div class="actividades"><strong>Spinning</strong></div>
-                        <div class="descripcion-actividades">Modalidad de ejercicio basado en la bicicleta estática tradicional, con maquinas modernas  </div>
+                        <div class="descripcion-actividades">Modalidad de ejercicio basado en la bicicleta estática tradicional, con máquinas modernas  </div>
                     </div>
-                    <div class="contenedor-actividades">
-                        <img src="images/entrenamientopersonalizado.jpg" alt="Imagen Personalizado" width="235px" height="200px">
-                        <div class="actividades"><strong>Entrenamiento Personalizado</strong></div>
-                        <div class="descripcion-actividades">Plan que se ajusta a nuestras necesidades, objetivos y condición personal. </div>
+                    <div class="contenedor-actividades" id="contentcuatro" >
+                        <div id="block-cuatro">
+                            <img src="images/entrenamientopersonalizado.jpg" alt="Imagen Personalizado" width="235px" height="200px" id="activCuatro">
+                            <div class="actividades"><strong>Entrenamiento Personalizado</strong></div>
+                            <div class="descripcion-actividades">Plan que se ajusta a nuestras necesidades, objetivos y condición personal. </div>
+                        </div>                      
                     </div>
                 </div>
             </div>
@@ -110,14 +115,14 @@
                         <img src="images/membresia.jpg" alt="folletoMembresia" width="340" height="220px">
                         <div class="membresia"><strong>Mensual</strong></div>
                         <div class="compra"><button class="boton-compra" onclick="miFuncomp()">Comprar</button></div>
-                        <div class="BasesyCondiciones"><button class="btn-BasesyCondiciones" onclick="miFunc()">Termino y condiciones</button></div>
+                        <div class="BasesyCondiciones"><button class="btn-BasesyCondiciones" onclick="miFunc()">Término y condiciones</button></div>
                         <script type="text/javascript"></script>
                     </div>
                     <div class="contenedor-membresia">
                         <img src="images/membresia.jpg" alt="folletoMembresia" width="340" height="220px">
                         <div class="membresia"><strong>Anual</strong></div>
                         <div class="compra"><button class="boton-compra" onclick="miFuncomp()">Comprar</button></div>
-                        <div class="BasesyCondiciones"><button class="btn-BasesyCondiciones" onclick="miFunc()">Termino y condiciones</button></div>
+                        <div class="BasesyCondiciones"><button class="btn-BasesyCondiciones" onclick="miFunc()">Término y condiciones</button></div>
                         <script type="text/javascript"></script>
                     </div>
                 </div>    
