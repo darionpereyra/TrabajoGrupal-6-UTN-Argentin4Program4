@@ -190,12 +190,7 @@ span{
    color: white;
 }
 
-.act-general{
-   background-color: red;
-}
-.NuestrasActividades{
-   background-color: red;
-}
+
 
 .contenedor-membresia{
    position: relative;
@@ -356,9 +351,7 @@ h4, .direccion, .grupo{
  }
 
 
-h2#actividades{
-   background-color: red;
-}
+
 section.tablaunido{
    margin-top: 0.2px;
    
@@ -376,3 +369,12 @@ span{
    text-transform: uppercase;
  }
 
+ .NuestrasActividades{
+ 
+
+ }
+ h2#actividades{
+   display: inline-block;
+   margin-bottom: 2rem;
+   
+ }
