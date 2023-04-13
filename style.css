@@ -214,6 +214,10 @@ border-top-right-radius: 8px;
    margin: 15px;
 }
 
+div#contentcuatro {
+   margin-left: 50px;
+}
+
 
 /*** Membresía ***/
 
@@ -423,4 +427,8 @@ h4, .direccion, .grupo{
 
 
  }
+
+
+
+
 
