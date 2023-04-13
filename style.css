@@ -246,8 +246,9 @@ span{
 .contenedor-membresia{
    position: relative;
    float: left;
-   padding: 80px 50px 10px;
+   padding: 80px 20px 20px;
    text-align: center;
+   margin-top: 50px;
 }
 
 .membresia{
@@ -422,3 +423,4 @@ h4, .direccion, .grupo{
 
 
  }
+
