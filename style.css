@@ -124,33 +124,32 @@ ul.lista-items{
 
  /*** Nuestras Actividades ***/
 
-
- .titulo-actividades{
-   padding: 30px;
-   margin: 0;
+.contenedoractiv{
+   background-color: grey !important;
 }
 
-
-h2#actividades {
-
+.head-actividades{
    display: inline-block;
-   margin-bottom: 2rem;
-   text-align: justify;     
+   padding: 2% 42%;
+   text-align: center;     
    font-weight: bold;
+   background-color: grey;
+   margin: 0px;
 }
 .asociate{
    display: inline-block;
-    width: 40%;
-    padding: 20px 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background:  rgb(255, 251, 40);
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor:pointer;
-    margin-bottom: 40px;
+   width: 180px;
+   height: 40;   
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   background:  rgb(255, 251, 40);
+   border: none;
+   border-radius: 5px;
+   transition: 1s all;
+   cursor:pointer;
+   margin-top: 10px;
+   margin-bottom: 10px;
     
  }
 
@@ -161,16 +160,15 @@ border-top-right-radius: 8px;
 }
 
 
-.NuestrasActividades{
-   display: block;
-   float: right;
-}
+
 
 .contenedor-actividades{
    position: relative;
-   display: inline-block;
-   padding: 35px;
+   top: 10px; left: 60px; right: 50px; 
+   padding-bottom: 30px;
+   float: left;
    text-align: center;
+   background-color: grey;
 }
 
 .actividades{
@@ -187,7 +185,8 @@ border-top-right-radius: 8px;
    -1px 1px 0 #000,
    1px 1px 0 #000;
    -webkit-text-stroke: 0,5px black;
-   letter-spacing: 2px;   
+   letter-spacing: 2px;
+
   
    
 }
@@ -201,6 +200,7 @@ border-top-right-radius: 8px;
    background-color: grey;
    color: white;
    transform: translate(0%, -13%);
+
 }
 
 #actividades{
@@ -212,8 +212,8 @@ border-top-right-radius: 8px;
    border-color: #ffed29;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
-   padding: 20px;
-   margin: 15px;
+   padding: 10px;
+   margin: 20px;
 }
 
 
@@ -229,6 +229,7 @@ span{
 
 .seccion-membresia {
    background-color: rgb(32, 33,40);
+   display: inline-flex;
    width: 100%;
    height: 500px;
 
@@ -248,8 +249,9 @@ span{
 .contenedor-membresia{
    position: relative;
    float: left;
-   padding: 80px 50px 10px;
+   padding: 80px 20px 20px;
    text-align: center;
+   margin-top: 50px;
 }
 
 .membresia{
@@ -302,7 +304,7 @@ span{
    color: white;
    background-color: grey;
    border: none;
-
+   cursor: pointer;
 
 }
 section.tablaunido{
