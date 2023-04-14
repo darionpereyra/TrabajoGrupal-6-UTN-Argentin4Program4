@@ -124,22 +124,17 @@ ul.lista-items{
 
  /*** Nuestras Actividades ***/
 
-.contenedoractiv{
-   background-color: grey !important;
-}
-
 .head-actividades{
    display: inline-block;
    padding: 2% 42%;
    text-align: center;     
    font-weight: bold;
-   background-color: grey;
    margin: 0px;
 }
 .asociate{
    display: inline-block;
    width: 180px;
-   height: 40;   
+   height: 50px;   
    font-size: 18px;
    font-weight: bold;
    color: white;
@@ -168,7 +163,7 @@ border-top-right-radius: 8px;
    padding-bottom: 30px;
    float: left;
    text-align: center;
-   background-color: grey;
+   
 }
 
 .actividades{
@@ -249,14 +244,14 @@ span{
 .contenedor-membresia{
    position: relative;
    float: left;
-   padding: 80px 20px 20px;
+   padding: 80px 50px 20px;
    text-align: center;
    margin-top: 50px;
 }
 
 .membresia{
    position: absolute;
-   top: 68%;
+   top: 66%;
    left: 50%;
    transform: translate(-50%, -50%);
    color: white;
@@ -276,12 +271,12 @@ span{
    position: absolute;
    vertical-align: text-bottom;
    padding: 8px 20px;
-   color: white;
+   color: black;
    background-color: #ffed29;
    top: 77%;
    left: 50%;
    transform: translate(-50%, -50%);
-   border-color: orange;
+   border-color: black;
    border-radius: 5px;
    cursor: pointer;
 }
