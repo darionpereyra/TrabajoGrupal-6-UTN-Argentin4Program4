@@ -160,8 +160,6 @@ ul.lista-items{
 img#activCuatro,#activTres,#activDos,#activUno {
    border-top-left-radius: 8px;
    border-top-right-radius: 8px;
-   width: 220px;
-   height: 200px;
    border: dashed;
    border-color: rgb(255, 257, 41);   
    padding: 10px 10px 70px 10px;
@@ -174,7 +172,7 @@ img#activCuatro,#activTres,#activDos,#activUno {
 .contenedor-actividades{
    position: relative;
    display: inline-block;
-   padding: 20px;
+   padding: 5px;
    padding-top: 20px;
    text-align: center;
    background-color: rgb(40, 41, 50);
