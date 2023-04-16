@@ -160,7 +160,7 @@ ul.lista-items{
 img#activCuatro,#activTres,#activDos,#activUno {
    border-top-left-radius: 8px;
    border-top-right-radius: 8px;
-   width: 235px;
+   width: 220px;
    height: 200px;
    border: dashed;
    border-color: rgb(255, 257, 41);   
@@ -174,7 +174,7 @@ img#activCuatro,#activTres,#activDos,#activUno {
 .contenedor-actividades{
    position: relative;
    display: inline-block;
-   padding: 10px;
+   padding: 20px;
    padding-top: 20px;
    text-align: center;
    background-color: rgb(40, 41, 50);
@@ -208,10 +208,10 @@ img#activCuatro,#activTres,#activDos,#activUno {
    justify-content: center;
    align-items: center;
    height: 60px;
-   width: 235px;
+   width: 220px;
    background-color: grey;
    color: white;
-   transform: translate(14.8%, -170%);
+   transform: translate(16%, -166.5%);
    
 
 }
