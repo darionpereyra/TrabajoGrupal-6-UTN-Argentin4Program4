@@ -7,15 +7,37 @@ body{
     background:#f9f9f9;
    
 }
+
+.contenedor-nav{
+   display: flex;
+   margin-top: 15px;
+   justify-content: space-between;
+   align-items: center;
+  
+
+}
+
+.logo{
+   margin-top: 20px;
+   padding-left: 20px;
+   width: 1rem;
+   height: 50px;
+   margin-bottom: 20px;
+   
+}
+
+
 .cabecera{
    
     align-items: center;
-    background:#f9f9f9;
+    background:white;
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 15px;
+    
+      
 }
+
 
 .menu__lista{
     display: flex;
@@ -33,13 +55,16 @@ body{
 }
 
 .menu__link:hover{
+ 
     text-decoration: underline;
     text-decoration-color: #ffed29;
     text-decoration-thickness: 4px;
+    
    
 }
 
 .menu__link--activo{
+   font-family: Arial, Helvetica, sans-serif;
     margin-right: 1.25rem;
     text-decoration: none;
     background-color: #ffed29;
@@ -50,76 +75,95 @@ body{
 }
 
 
+
 /***Banner***/
 
 .banner{
     width: 100%;
 }
 
-/***quienes somos***/
 
-.contenedor-quienes{
-    background:rgb(237, 237, 237);
-    text-align: center;
-    padding: 1rem 1rem;   
-}
 
-.titulo-quienes{
-    padding: 10px;
-}
-
-#pstyle{
-    font-style: italic;
-}
-
-em{
-    color: rgb(255, 211, 0);
-}
 
 
 /***El porqué deberían elegirnos***/
 
 .contenedor-ppal{
-    background: rgb(214, 214,214);
+   background: #d32902
 }
 
 
 .titulo-centralizado{
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-  }
-
- .contenedor-porque{
-  padding: 50px;
-  display: flex;
-  margin-top: 30px;
-  justify-content:space-around;
+   text-align: center;
+   padding: 50px;
+   font-size: 25px;
+   color: white;
  }
 
+.contenedor-porque{
+ padding: 50px;
+ display: flex;
+ margin-top: 30px;
+ justify-content:space-around;
+}
 
- .items{
-   
-    font-style: italic;
-  }
 
+.items{
   
-ul.lista-items{
-   list-style: none;
-   padding: 0;
+   font-style: italic;
  }
 
- li.items::before { /* Añadimos contenido antes de cada elemento de la lista */
-   content:"\25ba";  ; /* Insertamos el marcador */
-   padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
-   color: #ffed29; /* Coloreamos la viñeta */
-   }
+ 
+ul.lista-items{
+  list-style: none;
+  padding: 0;
+}
 
- iframe{
-   border-radius: 5px;
+li.items::before { /* Añadimos contenido antes de cada elemento de la lista */
+  content:"\25ba";  ; /* Insertamos el marcador */
+  padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+  color: #ffed29; /* Coloreamos la viñeta */
+  }
+
+iframe{
+  border-radius: 5px;
 
 }
 
+section.contenedor-dos{
+   display: flex;
+
+}
+
+div.contenedor-quienes{ 
+   margin-top: 50px; 
+   padding: 30px;
+   margin-bottom: 50px;
+
+
+}
+
+div.contenedor-quienes img.izquierda {
+   float: left;
+   margin-right: 50px;
+
+ }
+
+
+ .titulo-quienes{
+   text-align: justify;
+   padding: 15px;
+   font-size: 25px;
+   color: black;
+   font-weight: bold;
+
+ }
+
+ .parrafo-quienes{
+   font-size: 18px;
+   color: grey;
+
+ }
 
 
  /*** Nuestras Actividades ***/
@@ -172,7 +216,7 @@ img#activCuatro,#activTres,#activDos,#activUno {
 .contenedor-actividades{
    position: relative;
    display: inline-block;
-   padding: 5px;
+   padding: 30px;
    padding-top: 20px;
    text-align: center;
    background-color: rgb(40, 41, 50);
@@ -219,9 +263,17 @@ img#activCuatro,#activTres,#activDos,#activUno {
    
  }
 
- 
+ div#contentcuatro, div#contenttres, div#contentdos, div#contentuno {
+   border: dashed;
+   border-color: #ffed29;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding: 20px;
+   margin: 15px;
+}
 
-/*** Membresía ***/
+
+ /*** Membresía ***/
 
 span{
    color: #ffed29;
@@ -232,10 +284,13 @@ span{
 }
 
 .seccion-membresia {
-   background-color: rgb(32, 33,40);
+   background-color: rgb(210, 210, 210);
    display: inline-flex;
    width: 100%;
    height: 500px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   
 
 }
 
@@ -244,8 +299,8 @@ span{
    padding-top: 50px;
    padding: 30px;
    margin: 0;
-   background-color: rgb(32, 33,40);
-   color: white;
+   background-color: rgb(210, 210, 210);
+   color: black;
 }
 
 
@@ -255,7 +310,8 @@ span{
    float: left;
    padding: 60px 40px 20px;
    text-align: center;
-   margin-top: 50px;
+   margin-top: 100px;
+   
 }
 
 .membresia{
@@ -272,7 +328,7 @@ span{
    1px 1px 0 #000;
    -webkit-text-stroke: 0,5px black;
    letter-spacing: 2px;   
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 
 }
 
@@ -281,7 +337,7 @@ span{
    vertical-align: text-bottom;
    padding: 8px 20px;
    color: black;
-   background-color: #ffed29;
+   background-color: rgb(31, 225, 186);
    top: 77%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -311,6 +367,12 @@ span{
    cursor: pointer;
 
 }
+#btn-compra{
+   background-color: rgb(180, 92, 255);
+
+}
+
+
 section.tablaunido{
    margin-top: 0.2px;
    
@@ -323,7 +385,6 @@ span{
    text-transform: uppercase;
 
  }
-
 
 
  /***Contacto ***/
@@ -369,7 +430,7 @@ h2.titulo-prueba,h3.titulo-prueba {
 
  .enviar{
     display: block;
-    width: 40%;
+    width: 55%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -378,24 +439,17 @@ h2.titulo-prueba,h3.titulo-prueba {
     border: none;
     border-radius: 5px;
     transition: 1s all;
-    cursor:pointer;
-    
+    cursor:pointer;    
  }
-
- .enviar:hover{
-    background:rgb(255, 237, 41);
-    transform: scale(1.2);
- }
-
  #camposObligatorios{
-   color: red;
+   color: #d32902;
+   font-weight: bold;
   }
 
  .contenedor-general{ 
     width: 940px;
     display: flex;
     justify-content: space-between;
-
  }
 
  
@@ -423,3 +477,5 @@ h4, .direccion, .grupo{
     padding-bottom: 2rem;
 
  }
+
+ 
