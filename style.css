@@ -216,7 +216,7 @@ img#activCuatro,#activTres,#activDos,#activUno {
 .contenedor-actividades{
    position: relative;
    display: inline-block;
-   transform: translate(36%, 0%);
+   transform: translate(40%, 0%);
    padding-left: 30px;
    padding-right: 30px;
    padding-top: 20px;
@@ -425,7 +425,7 @@ h2.titulo-prueba,h3.titulo-prueba {
 
  .enviar{
     display: block;
-    width: 55%;
+    width: 55.5%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -472,5 +472,7 @@ h4, .direccion, .grupo{
     padding-bottom: 2rem;
 
  }
+
+ 
 
  
