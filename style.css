@@ -216,7 +216,9 @@ img#activCuatro,#activTres,#activDos,#activUno {
 .contenedor-actividades{
    position: relative;
    display: inline-block;
-   padding: 30px;
+   transform: translate(36%, 0%);
+   padding-left: 30px;
+   padding-right: 30px;
    padding-top: 20px;
    text-align: center;
    background-color: rgb(40, 41, 50);
@@ -263,14 +265,7 @@ img#activCuatro,#activTres,#activDos,#activUno {
    
  }
 
- div#contentcuatro, div#contenttres, div#contentdos, div#contentuno {
-   border: dashed;
-   border-color: #ffed29;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-   padding: 20px;
-   margin: 15px;
-}
+ 
 
 
  /*** Membresía ***/
