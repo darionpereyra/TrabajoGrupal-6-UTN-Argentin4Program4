@@ -131,46 +131,11 @@ iframe{
 
 }
 
-section.contenedor-dos{
-   display: flex;
-
-}
-
-div.contenedor-quienes{ 
-   margin-top: 50px; 
-   padding: 30px;
-   margin-bottom: 50px;
-
-
-}
-
-div.contenedor-quienes img.izquierda {
-   float: left;
-   margin-right: 50px;
-
- }
-
-
- .titulo-quienes{
-   text-align: justify;
-   padding: 15px;
-   font-size: 25px;
-   color: black;
-   font-weight: bold;
-
- }
-
- .parrafo-quienes{
-   font-size: 18px;
-   color: grey;
-
- }
-
 
  /*** Nuestras Actividades ***/
 
 .NuestrasActividades{
-   width: 100%;
+   
    background-color: rgb(40, 41, 50);
 }
 
@@ -208,8 +173,9 @@ img#activCuatro,#activTres,#activDos,#activUno {
    border-top-right-radius: 8px;
    border: dashed;
    border-color: rgb(255, 257, 41);   
-   padding: 10px 10px 70px 10px;
-   margin: 22.4px;
+   padding: 10px 10px 90px 10px;
+   width: 70%;
+   height: 70%;
 }
 
 
@@ -218,9 +184,9 @@ img#activCuatro,#activTres,#activDos,#activUno {
 .contenedor-actividades{
    position: relative;
    display: inline-block;
-   transform: translate(40%, 0%);
-   padding-left: 30px;
-   padding-right: 30px;
+   transform: translate(17%, 0%);
+   width: 30%;
+   height: 30%;
    padding-top: 20px;
    text-align: center;
    background-color: rgb(40, 41, 50);
@@ -233,7 +199,7 @@ img#activCuatro,#activTres,#activDos,#activUno {
    vertical-align: text-bottom;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   transform: translate(-50%, -25%);
    color: white;
    text-shadow: 
    1px 1px 0 #000,
@@ -253,11 +219,11 @@ img#activCuatro,#activTres,#activDos,#activUno {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 60px;
-   width: 220px;
+   height: 90px;
+   width: 64%;
    background-color: grey;
    color: white;
-   transform: translate(16%, -166.5%);
+   transform: translate(28.5%, -110%);
    
 
 }
@@ -427,7 +393,7 @@ h2.titulo-prueba,h3.titulo-prueba {
 
  .enviar{
     display: block;
-    width: 55.5%;
+    width: 50%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -476,5 +442,43 @@ h4, .direccion, .grupo{
  }
 
  
+/***Login-Registro ***/
+
+
+
+/*** modifique esta parte para agregar  la imagen de fondo ***/
+
+.tablalogin{
+   background-image: url(images/woman-back-workout-fitness.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: white;
+    
+}
+
+
+/*** Solo agregue esta parte para las preguntas ***/
+
+.tablaregistro{
+   background-image: url(images/bg.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: white;
+    
+}
+
+
+
+#help{
+   color: #f9f9f9;
+   font-size: large;
+ }
+
+ #reg{
+   color: #f9f9f9;
+   font-size: large;
+ }
 
  
